@@ -1,0 +1,27 @@
+{
+  "config": {
+    "model_name_or_path": "/pscratch/sd/r/rs2531/Course_Project/hf_cache/blip2-flan-t5-xl",
+    "data_root": "/pscratch/sd/r/rs2531/Course_Project/roco_caption/data",
+    "train_jsonl": "train.jsonl",
+    "val_jsonl": "val.jsonl",
+    "output_dir": "/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws16/checkpoints",
+    "num_epochs": 5,
+    "train_batch_size": 1,
+    "eval_batch_size": 1,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 0,
+    "max_text_len": 64,
+    "num_workers": 4,
+    "seed": 42,
+    "log_every": 10,
+    "save_every": 0,
+    "grad_clip": 1.0,
+    "sharding_strategy": "full",
+    "use_mixed_precision": true,
+    "cpu_offload": false
+  },
+  "world_size": 16,
+  "slurm_job_id": "45864269",
+  "timestamp": "2025-11-30 18:27:18"
+}
