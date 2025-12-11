@@ -1,0 +1,123 @@
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[FSDP] init on host=nid001301 | rank=0/16 | local_rank=0 | device_index=0 | MASTER_ADDR=128.55.66.114:29500 | CUDA_VISIBLE_DEVICES=0,1,2,3
+[FSDP] world_size=16, rank=0, local_rank=0, device_index=0
+[FSDP] Config: FSDPConfig(model_name_or_path='/pscratch/sd/r/rs2531/Course_Project/hf_cache/blip2-flan-t5-xl', data_root='/pscratch/sd/r/rs2531/Course_Project/roco_caption/data', train_jsonl='train.jsonl', val_jsonl='val.jsonl', output_dir='/pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints', num_epochs=5, train_batch_size=1, eval_batch_size=1, learning_rate=1e-05, weight_decay=0.01, warmup_steps=0, max_text_len=64, num_workers=4, seed=42, log_every=10, save_every=0, grad_clip=1.0, sharding_strategy='full', use_mixed_precision=True, cpu_offload=False)
+[FSDP] Saved run metadata to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/run_meta.json
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[FSDP] num_train_batches_per_rank=123, num_training_steps=123
+[rank0] Loading BLIP-2 model from /pscratch/sd/r/rs2531/Course_Project/hf_cache/blip2-flan-t5-xl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+========== Epoch 0 ==========
+[Epoch 0 Step 0/123] Loss (global avg): 25.2481
+[Epoch 0 Step 10/123] Loss (global avg): 19.2572
+[Epoch 0 Step 20/123] Loss (global avg): 12.5115
+[Epoch 0 Step 30/123] Loss (global avg): 8.9748
+[Epoch 0 Step 40/123] Loss (global avg): 6.9433
+[Epoch 0 Step 50/123] Loss (global avg): 5.6608
+[Epoch 0 Step 60/123] Loss (global avg): 4.7830
+[Epoch 0 Step 70/123] Loss (global avg): 4.1474
+[Epoch 0 Step 80/123] Loss (global avg): 3.6641
+[Epoch 0 Step 90/123] Loss (global avg): 3.2841
+[Epoch 0 Step 100/123] Loss (global avg): 2.9762
+[Epoch 0 Step 110/123] Loss (global avg): 2.7249
+[Epoch 0 Step 120/123] Loss (global avg): 2.5125
+[Eval] Loss (global avg): 0.0568
+[Epoch 0] train_loss=2.4743, val_loss=0.0568, epoch_time=73.4s, time/step=0.5970s, samples/s_per_gpu=1.7, samples/s_global=26.8, peak_mem_gb_rank0=24.92
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl
+========== Epoch 1 ==========
+[Epoch 1 Step 0/123] Loss (global avg): 0.1238
+[Epoch 1 Step 10/123] Loss (global avg): 0.1444
+[Epoch 1 Step 20/123] Loss (global avg): 0.1556
+[Epoch 1 Step 30/123] Loss (global avg): 0.1447
+[Epoch 1 Step 40/123] Loss (global avg): 0.1415
+[Epoch 1 Step 50/123] Loss (global avg): 0.1374
+[Epoch 1 Step 60/123] Loss (global avg): 0.1320
+[Epoch 1 Step 70/123] Loss (global avg): 0.1276
+[Epoch 1 Step 80/123] Loss (global avg): 0.1241
+[Epoch 1 Step 90/123] Loss (global avg): 0.1199
+[Epoch 1 Step 100/123] Loss (global avg): 0.1170
+[Epoch 1 Step 110/123] Loss (global avg): 0.1142
+[Epoch 1 Step 120/123] Loss (global avg): 0.1137
+[Eval] Loss (global avg): 0.0282
+[Epoch 1] train_loss=0.1142, val_loss=0.0282, epoch_time=67.6s, time/step=0.5495s, samples/s_per_gpu=1.8, samples/s_global=29.1, peak_mem_gb_rank0=24.92
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl
+========== Epoch 2 ==========
+[Epoch 2 Step 0/123] Loss (global avg): 0.0689
+[Epoch 2 Step 10/123] Loss (global avg): 0.0898
+[Epoch 2 Step 20/123] Loss (global avg): 0.0806
+[Epoch 2 Step 30/123] Loss (global avg): 0.0772
+[Epoch 2 Step 40/123] Loss (global avg): 0.0742
+[Epoch 2 Step 50/123] Loss (global avg): 0.0713
+[Epoch 2 Step 60/123] Loss (global avg): 0.0734
+[Epoch 2 Step 70/123] Loss (global avg): 0.0740
+[Epoch 2 Step 80/123] Loss (global avg): 0.0734
+[Epoch 2 Step 90/123] Loss (global avg): 0.0737
+[Epoch 2 Step 100/123] Loss (global avg): 0.0735
+[Epoch 2 Step 110/123] Loss (global avg): 0.0735
+[Epoch 2 Step 120/123] Loss (global avg): 0.0741
+[Eval] Loss (global avg): 0.0667
+[Epoch 2] train_loss=0.0745, val_loss=0.0667, epoch_time=67.9s, time/step=0.5516s, samples/s_per_gpu=1.8, samples/s_global=29.0, peak_mem_gb_rank0=24.92
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl
+========== Epoch 3 ==========
+[Epoch 3 Step 0/123] Loss (global avg): 0.0794
+[Epoch 3 Step 10/123] Loss (global avg): 0.0661
+[Epoch 3 Step 20/123] Loss (global avg): 0.0595
+[Epoch 3 Step 30/123] Loss (global avg): 0.0607
+[Epoch 3 Step 40/123] Loss (global avg): 0.0610
+[Epoch 3 Step 50/123] Loss (global avg): 0.0618
+[Epoch 3 Step 60/123] Loss (global avg): 0.0616
+[Epoch 3 Step 70/123] Loss (global avg): 0.0618
+[Epoch 3 Step 80/123] Loss (global avg): 0.0611
+[Epoch 3 Step 90/123] Loss (global avg): 0.0600
+[Epoch 3 Step 100/123] Loss (global avg): 0.0591
+[Epoch 3 Step 110/123] Loss (global avg): 0.0591
+[Epoch 3 Step 120/123] Loss (global avg): 0.0588
+[Eval] Loss (global avg): 0.0161
+[Epoch 3] train_loss=0.0590, val_loss=0.0161, epoch_time=67.7s, time/step=0.5502s, samples/s_per_gpu=1.8, samples/s_global=29.1, peak_mem_gb_rank0=24.92
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl
+========== Epoch 4 ==========
+[Epoch 4 Step 0/123] Loss (global avg): 0.0526
+[Epoch 4 Step 10/123] Loss (global avg): 0.0484
+[Epoch 4 Step 20/123] Loss (global avg): 0.0491
+[Epoch 4 Step 30/123] Loss (global avg): 0.0516
+[Epoch 4 Step 40/123] Loss (global avg): 0.0533
+[Epoch 4 Step 50/123] Loss (global avg): 0.0531
+[Epoch 4 Step 60/123] Loss (global avg): 0.0526
+[Epoch 4 Step 70/123] Loss (global avg): 0.0527
+[Epoch 4 Step 80/123] Loss (global avg): 0.0518
+[Epoch 4 Step 90/123] Loss (global avg): 0.0512
+[Epoch 4 Step 100/123] Loss (global avg): 0.0520
+[Epoch 4 Step 110/123] Loss (global avg): 0.0519
+[Epoch 4 Step 120/123] Loss (global avg): 0.0512
+[Eval] Loss (global avg): 0.0124
+[Epoch 4] train_loss=0.0512, val_loss=0.0124, epoch_time=68.4s, time/step=0.5564s, samples/s_per_gpu=1.8, samples/s_global=28.8, peak_mem_gb_rank0=24.92
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl

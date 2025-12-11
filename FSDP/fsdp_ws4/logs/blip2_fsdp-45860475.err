@@ -1,0 +1,43 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/12.4 => cudatoolkit/12.9
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.59it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  6.16it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.59it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  6.17it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.60it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  6.17it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.59it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  6.16it/s]
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:345: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:345: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:345: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:345: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/global/common/software/nersc9/pytorch/2.8.0/lib/python3.12/site-packages/apex/_autocast_utils.py:26: FutureWarning: `torch.cuda.amp.autocast_mode._cast(value, dtype)` is deprecated. Please use `torch.amp.autocast_mode._cast(value, 'cuda', dtype)` instead.
+  return torch.cuda.amp.autocast_mode._cast(args, torch.get_autocast_gpu_dtype())
+/global/common/software/nersc9/pytorch/2.8.0/lib/python3.12/site-packages/apex/_autocast_utils.py:26: FutureWarning: `torch.cuda.amp.autocast_mode._cast(value, dtype)` is deprecated. Please use `torch.amp.autocast_mode._cast(value, 'cuda', dtype)` instead.
+  return torch.cuda.amp.autocast_mode._cast(args, torch.get_autocast_gpu_dtype())
+/global/common/software/nersc9/pytorch/2.8.0/lib/python3.12/site-packages/apex/_autocast_utils.py:26: FutureWarning: `torch.cuda.amp.autocast_mode._cast(value, dtype)` is deprecated. Please use `torch.amp.autocast_mode._cast(value, 'cuda', dtype)` instead.
+  return torch.cuda.amp.autocast_mode._cast(args, torch.get_autocast_gpu_dtype())
+/global/common/software/nersc9/pytorch/2.8.0/lib/python3.12/site-packages/apex/_autocast_utils.py:26: FutureWarning: `torch.cuda.amp.autocast_mode._cast(value, dtype)` is deprecated. Please use `torch.amp.autocast_mode._cast(value, 'cuda', dtype)` instead.
+  return torch.cuda.amp.autocast_mode._cast(args, torch.get_autocast_gpu_dtype())
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:427: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:427: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:427: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+/pscratch/sd/r/rs2531/Course_Project/FSDP/fsdp_ws4/train_fsdp.py:427: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=autocast_dtype):
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 45860475.0 ON nid002344 CANCELLED AT 2025-12-01T02:00:58 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 45860475 ON nid002344 CANCELLED AT 2025-12-01T02:00:58 DUE TO TIME LIMIT ***

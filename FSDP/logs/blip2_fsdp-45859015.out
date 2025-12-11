@@ -1,0 +1,117 @@
+[FSDP] init on host=nid002953 | rank=0/4 | local_rank=0 | device_index=0 | MASTER_ADDR=128.55.67.172:29500 | CUDA_VISIBLE_DEVICES=0,1,2,3
+[FSDP] world_size=4, rank=0, local_rank=0, device_index=0
+[FSDP] Config: FSDPConfig(model_name_or_path='/pscratch/sd/r/rs2531/Course_Project/hf_cache/blip2-flan-t5-xl', data_root='/pscratch/sd/r/rs2531/Course_Project/roco_caption/data', train_jsonl='train.jsonl', val_jsonl='val.jsonl', output_dir='/pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints', num_epochs=5, train_batch_size=1, eval_batch_size=1, learning_rate=1e-05, weight_decay=0.01, warmup_steps=0, max_text_len=64, num_workers=4, seed=42, log_every=10, save_every=0, grad_clip=1.0, sharding_strategy='full', use_mixed_precision=True, cpu_offload=False)
+[FSDP] Saved run metadata to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/run_meta.json
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 1960 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/train.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[Dataset] Loaded 40 samples from /pscratch/sd/r/rs2531/Course_Project/roco_caption/data/val.jsonl
+[FSDP] num_train_batches_per_rank=490, num_training_steps=490
+[rank0] Loading BLIP-2 model from /pscratch/sd/r/rs2531/Course_Project/hf_cache/blip2-flan-t5-xl
+========== Epoch 0 ==========
+[Epoch 0 Step 0/490] Loss (global avg): 24.0073
+[Epoch 0 Step 10/490] Loss (global avg): 19.9642
+[Epoch 0 Step 20/490] Loss (global avg): 13.4864
+[Epoch 0 Step 30/490] Loss (global avg): 9.8965
+[Epoch 0 Step 40/490] Loss (global avg): 7.7827
+[Epoch 0 Step 50/490] Loss (global avg): 6.4006
+[Epoch 0 Step 60/490] Loss (global avg): 5.4436
+[Epoch 0 Step 70/490] Loss (global avg): 4.7391
+[Epoch 0 Step 80/490] Loss (global avg): 4.2132
+[Epoch 0 Step 90/490] Loss (global avg): 3.7954
+[Epoch 0 Step 100/490] Loss (global avg): 3.4555
+[Epoch 0 Step 110/490] Loss (global avg): 3.1694
+[Epoch 0 Step 120/490] Loss (global avg): 2.9260
+[Epoch 0 Step 130/490] Loss (global avg): 2.7165
+[Epoch 0 Step 140/490] Loss (global avg): 2.5384
+[Epoch 0 Step 150/490] Loss (global avg): 2.3851
+[Epoch 0 Step 160/490] Loss (global avg): 2.2497
+[Epoch 0 Step 170/490] Loss (global avg): 2.1324
+[Epoch 0 Step 180/490] Loss (global avg): 2.0222
+[Epoch 0 Step 190/490] Loss (global avg): 1.9255
+[Epoch 0 Step 200/490] Loss (global avg): 1.8371
+[Epoch 0 Step 210/490] Loss (global avg): 1.7570
+[Epoch 0 Step 220/490] Loss (global avg): 1.6850
+[Epoch 0 Step 230/490] Loss (global avg): 1.6184
+[Epoch 0 Step 240/490] Loss (global avg): 1.5580
+[Epoch 0 Step 250/490] Loss (global avg): 1.5035
+[Epoch 0 Step 260/490] Loss (global avg): 1.4507
+[Epoch 0 Step 270/490] Loss (global avg): 1.4009
+[Epoch 0 Step 280/490] Loss (global avg): 1.3564
+[Epoch 0 Step 290/490] Loss (global avg): 1.3136
+[Epoch 0 Step 300/490] Loss (global avg): 1.2770
+[Epoch 0 Step 310/490] Loss (global avg): 1.2388
+[Epoch 0 Step 320/490] Loss (global avg): 1.2037
+[Epoch 0 Step 330/490] Loss (global avg): 1.1716
+[Epoch 0 Step 340/490] Loss (global avg): 1.1407
+[Epoch 0 Step 350/490] Loss (global avg): 1.1114
+[Epoch 0 Step 360/490] Loss (global avg): 1.0833
+[Epoch 0 Step 370/490] Loss (global avg): 1.0573
+[Epoch 0 Step 380/490] Loss (global avg): 1.0338
+[Epoch 0 Step 390/490] Loss (global avg): 1.0106
+[Epoch 0 Step 400/490] Loss (global avg): 0.9884
+[Epoch 0 Step 410/490] Loss (global avg): 0.9669
+[Epoch 0 Step 420/490] Loss (global avg): 0.9465
+[Epoch 0 Step 430/490] Loss (global avg): 0.9263
+[Epoch 0 Step 440/490] Loss (global avg): 0.9069
+[Epoch 0 Step 450/490] Loss (global avg): 0.8895
+[Epoch 0 Step 460/490] Loss (global avg): 0.8722
+[Epoch 0 Step 470/490] Loss (global avg): 0.8558
+[Epoch 0 Step 480/490] Loss (global avg): 0.8397
+[Eval] Loss (global avg): 0.0361
+[Epoch 0] train_loss=0.8254, val_loss=0.0361, epoch_time=749.1s, time/step=1.5288s, samples/s_per_gpu=0.7, samples/s_global=2.6, peak_mem_gb_rank0=33.28
+[FSDP] Logged epoch metrics to /pscratch/sd/r/rs2531/Course_Project/FSDP/checkpoints/metrics_epoch.jsonl
+========== Epoch 1 ==========
+[Epoch 1 Step 0/490] Loss (global avg): 0.0733
+[Epoch 1 Step 10/490] Loss (global avg): 0.0825
+[Epoch 1 Step 20/490] Loss (global avg): 0.0705
+[Epoch 1 Step 30/490] Loss (global avg): 0.0706
+[Epoch 1 Step 40/490] Loss (global avg): 0.0677
+[Epoch 1 Step 50/490] Loss (global avg): 0.0650
+[Epoch 1 Step 60/490] Loss (global avg): 0.0687
+[Epoch 1 Step 70/490] Loss (global avg): 0.0701
+[Epoch 1 Step 80/490] Loss (global avg): 0.0714
+[Epoch 1 Step 90/490] Loss (global avg): 0.0701
+[Epoch 1 Step 100/490] Loss (global avg): 0.0689
+[Epoch 1 Step 110/490] Loss (global avg): 0.0684
+[Epoch 1 Step 120/490] Loss (global avg): 0.0699
+[Epoch 1 Step 130/490] Loss (global avg): 0.0699
+[Epoch 1 Step 140/490] Loss (global avg): 0.0685
+[Epoch 1 Step 150/490] Loss (global avg): 0.0683
+[Epoch 1 Step 160/490] Loss (global avg): 0.0681
+[Epoch 1 Step 170/490] Loss (global avg): 0.0680
+[Epoch 1 Step 180/490] Loss (global avg): 0.0681
+[Epoch 1 Step 190/490] Loss (global avg): 0.0679
+[Epoch 1 Step 200/490] Loss (global avg): 0.0677
+[Epoch 1 Step 210/490] Loss (global avg): 0.0672
+[Epoch 1 Step 220/490] Loss (global avg): 0.0671
+[Epoch 1 Step 230/490] Loss (global avg): 0.0671
+[Epoch 1 Step 240/490] Loss (global avg): 0.0686
+[Epoch 1 Step 250/490] Loss (global avg): 0.0714
+[Epoch 1 Step 260/490] Loss (global avg): 0.0752
+[Epoch 1 Step 270/490] Loss (global avg): 0.0752
+[Epoch 1 Step 280/490] Loss (global avg): 0.0752
+[Epoch 1 Step 290/490] Loss (global avg): 0.0768
+[Epoch 1 Step 300/490] Loss (global avg): 0.0764
+[Epoch 1 Step 310/490] Loss (global avg): 0.0756
+[Epoch 1 Step 320/490] Loss (global avg): 0.0749
+[Epoch 1 Step 330/490] Loss (global avg): 0.0742
+[Epoch 1 Step 340/490] Loss (global avg): 0.0737
+[Epoch 1 Step 350/490] Loss (global avg): 0.0729
+[Epoch 1 Step 360/490] Loss (global avg): 0.0723
+[Epoch 1 Step 370/490] Loss (global avg): 0.0719
+[Epoch 1 Step 380/490] Loss (global avg): 0.0710
+[Epoch 1 Step 390/490] Loss (global avg): 0.0705
+[Epoch 1 Step 400/490] Loss (global avg): 0.0714
+[Epoch 1 Step 410/490] Loss (global avg): 0.0711
+[Epoch 1 Step 420/490] Loss (global avg): 0.0708
+[Epoch 1 Step 430/490] Loss (global avg): 0.0707
+[Epoch 1 Step 440/490] Loss (global avg): 0.0705
+[Epoch 1 Step 450/490] Loss (global avg): 0.0699
+[Epoch 1 Step 460/490] Loss (global avg): 0.0691
+[Epoch 1 Step 470/490] Loss (global avg): 0.0686
+[Epoch 1 Step 480/490] Loss (global avg): 0.0685
